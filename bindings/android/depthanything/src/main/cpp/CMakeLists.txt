@@ -1,4 +1,4 @@
-# SPDX-License-Identifier: MIT
+# SPDX-License-Identifier: Apache-2.0
 # Copyright (c) 2026 Yossi Elkrief
 cmake_minimum_required(VERSION 3.22)
 project(depthanything_jni CXX)

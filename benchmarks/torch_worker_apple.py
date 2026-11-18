@@ -1,4 +1,4 @@
-# SPDX-License-Identifier: MIT
+# SPDX-License-Identifier: Apache-2.0
 # Copyright (c) 2026 Yossi Elkrief
 """PyTorch reference timing on Apple Silicon (CPU or MPS), for bench_apple.py.
 

@@ -1,0 +1,11 @@
+depth-anywhere
+Copyright 2026 Yossi Elkrief
+https://github.com/MaTriXy/depth-anywhere
+
+This product includes software from depth-anything.cpp
+(https://github.com/mudler/depth-anything.cpp), Copyright (c) 2026 the
+depth-anything.cpp authors, licensed under the MIT License
+(licenses/depth-anything.cpp-MIT.txt).
+
+It uses ggml (https://github.com/ggml-org/ggml, MIT License) and stb_image
+(https://github.com/nothings/stb, public domain or MIT License).

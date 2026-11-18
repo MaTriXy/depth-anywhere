@@ -5,7 +5,7 @@ By **Yossi Elkrief** ([@MaTriXy](https://github.com/MaTriXy)). Free for any use;
 **Depth Anything on every device.** iPhone, Android, Mac, Linux and Windows; CPU or GPU. One small C++ library,
 one GGUF file, no Python.
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-green)](LICENSE)
+[![License: Apache 2.0](https://img.shields.io/badge/License-Apache_2.0-green)](LICENSE)
 ![Platforms](https://img.shields.io/badge/runs_on-iOS_·_Android_·_macOS_·_Linux_·_Windows-blue)
 ![Backends](https://img.shields.io/badge/backends-CPU_·_Metal_·_CUDA_·_Vulkan-blueviolet)
 
@@ -281,9 +281,10 @@ To cite depth-anywhere, use GitHub's "Cite this repository" button ([`CITATION.c
 
 It's free for personal and commercial use. Two things when you ship it:
 
-- **Required by the licence, commercial or not:** include the copyright and licence notice from [`LICENSE`](LICENSE)
-  with your app or product, for example in its open-source licences screen. It names Yossi Elkrief and the
-  depth-anything.cpp authors.
+- **Required by the licence, commercial or not:** if you distribute it (in an app, a product or a fork), include
+  the [`LICENSE`](LICENSE) and the [`NOTICE`](NOTICE) file, for example in your open-source licences screen. The
+  NOTICE names Yossi Elkrief and the depth-anything.cpp authors, and Apache 2.0 requires keeping it with any
+  redistribution or derivative work.
 - **Please, if you can:** credit it where people will see it: an About or credits screen, your docs, a project
   page or a post. For example:
 
@@ -299,5 +300,7 @@ Built something with it? Open an issue and tell me; I'd like to list projects th
 
 ## License
 
-The code is [MIT](LICENSE). Model weights keep the licence of their original checkpoint (see
+[Apache 2.0](LICENSE), with the attribution in [`NOTICE`](NOTICE). The code that came from depth-anything.cpp is
+also under its original MIT licence ([`licenses/depth-anything.cpp-MIT.txt`](licenses/depth-anything.cpp-MIT.txt));
+ggml and stb keep their own licences. Model weights keep the licence of their original checkpoint (see
 [Supported models](#supported-models)).

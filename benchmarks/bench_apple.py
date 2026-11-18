@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-# SPDX-License-Identifier: MIT
+# SPDX-License-Identifier: Apache-2.0
 # Copyright (c) 2026 Yossi Elkrief
 """Apple Silicon benchmark: the original port vs this version (CPU and Metal) vs PyTorch (CPU and MPS).
 

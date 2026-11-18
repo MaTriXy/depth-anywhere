@@ -8,7 +8,7 @@ authors:
     given-names: Yossi
     alias: MaTriXy
 repository-code: "https://github.com/MaTriXy/depth-anywhere"
-license: MIT
+license: Apache-2.0
 date-released: "2026-11-18"
 keywords: [depth estimation, depth anything, ggml, ios, android, metal, on-device]
 references:

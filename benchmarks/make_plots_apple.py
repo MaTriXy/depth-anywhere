@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-# SPDX-License-Identifier: MIT
+# SPDX-License-Identifier: Apache-2.0
 # Copyright (c) 2026 Yossi Elkrief
 """Plots for the Apple Silicon and phone benchmarks (results_apple.json, results_mobile.json).
 

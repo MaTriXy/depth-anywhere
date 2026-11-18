@@ -1,4 +1,4 @@
-// SPDX-License-Identifier: MIT
+// SPDX-License-Identifier: Apache-2.0
 // Copyright (c) 2026 Yossi Elkrief
 // Depth Anything for Android: depth maps from photos and camera frames, on device. The engine
 // (../../../ : CMakeLists.txt) is built for arm64-v8a with the NDK and wrapped by JNI.

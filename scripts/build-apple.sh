@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# SPDX-License-Identifier: MIT
+# SPDX-License-Identifier: Apache-2.0
 # Copyright (c) 2026 Yossi Elkrief
 # Builds DepthAnything.xcframework (iOS device, iOS simulator, macOS; arm64) with the Metal
 # backend, for apps: bindings/apple wraps it as the DepthAnything Swift package.
