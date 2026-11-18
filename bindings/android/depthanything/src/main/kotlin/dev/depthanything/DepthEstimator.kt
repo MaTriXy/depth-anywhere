@@ -1,3 +1,5 @@
+// SPDX-License-Identifier: MIT
+// Copyright (c) 2026 Yossi Elkrief
 package dev.depthanything
 
 import android.graphics.Bitmap

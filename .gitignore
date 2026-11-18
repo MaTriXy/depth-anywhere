@@ -30,3 +30,6 @@ bindings/android/build/
 bindings/android/local.properties
 bindings/android/.gradle/
 benchmarks/ref/
+
+# Android SDK path (machine-specific)
+local.properties

@@ -1,0 +1,45 @@
+cff-version: 1.2.0
+message: "If you use depth-anywhere, please cite it as below, and cite Depth Anything 3 for the model."
+title: "depth-anywhere: Depth Anything on every device"
+abstract: "Depth Anything 3 and V2 with ggml on iOS, Android, macOS, Linux and Windows, on CPU, Metal, CUDA or Vulkan."
+type: software
+authors:
+  - family-names: Elkrief
+    given-names: Yossi
+    alias: MaTriXy
+repository-code: "https://github.com/MaTriXy/depth-anywhere"
+license: MIT
+date-released: "2026-11-18"
+keywords: [depth estimation, depth anything, ggml, ios, android, metal, on-device]
+references:
+  - type: software
+    title: "depth-anything.cpp: a C++/ggml inference engine for Depth Anything 3"
+    authors:
+      - family-names: Di Giacinto
+        given-names: Ettore
+      - family-names: Palethorpe
+        given-names: Richard
+    repository-code: "https://github.com/mudler/depth-anything.cpp"
+    license: MIT
+    year: 2026
+  - type: article
+    title: "Depth Anything 3: Recovering the visual space from any views"
+    authors:
+      - family-names: Lin
+        given-names: Haotong
+      - family-names: Chen
+        given-names: Sili
+      - family-names: Liew
+        given-names: Jun Hao
+      - family-names: Chen
+        given-names: Donny Y.
+      - family-names: Li
+        given-names: Zhenyu
+      - family-names: Shi
+        given-names: Guang
+      - family-names: Feng
+        given-names: Jiashi
+      - family-names: Kang
+        given-names: Bingyi
+    journal: "arXiv preprint arXiv:2511.10647"
+    year: 2025

@@ -1,4 +1,6 @@
 #!/usr/bin/env python3
+# SPDX-License-Identifier: MIT
+# Copyright (c) 2026 Yossi Elkrief
 """Apple Silicon benchmark: the original port vs this version (CPU and Metal) vs PyTorch (CPU and MPS).
 
 Each config runs in its own process under `/usr/bin/time -l` (peak RSS), loads the model once,

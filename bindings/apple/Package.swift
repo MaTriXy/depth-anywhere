@@ -1,4 +1,6 @@
 // swift-tools-version: 6.0
+// SPDX-License-Identifier: MIT
+// Copyright (c) 2026 Yossi Elkrief
 // DepthAnything for Apple platforms: depth maps from photos and camera frames, on device, with
 // the Metal backend. Build the binary first: scripts/build-apple.sh (it copies
 // DepthAnything.xcframework next to this file).

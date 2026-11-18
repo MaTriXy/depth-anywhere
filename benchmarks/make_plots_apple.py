@@ -1,4 +1,6 @@
 #!/usr/bin/env python3
+# SPDX-License-Identifier: MIT
+# Copyright (c) 2026 Yossi Elkrief
 """Plots for the Apple Silicon and phone benchmarks (results_apple.json, results_mobile.json).
 
     python benchmarks/make_plots_apple.py   ->  benchmarks/media/{mac_speed,mac_memory,cold_start,phones}.png

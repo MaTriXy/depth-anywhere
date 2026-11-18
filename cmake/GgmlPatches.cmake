@@ -1,3 +1,5 @@
+# SPDX-License-Identifier: MIT
+# Copyright (c) 2026 Yossi Elkrief
 # Local changes to the ggml submodule, kept as patches until they're upstream (patches/ggml/).
 # Each one is applied once and skipped when it's already in the tree, so re-configuring is safe.
 #

@@ -1,5 +1,7 @@
 # depth-anywhere
 
+By **Yossi Elkrief** ([@MaTriXy](https://github.com/MaTriXy)).
+
 **Depth Anything on every device.** iPhone, Android, Mac, Linux and Windows; CPU or GPU. One small C++ library,
 one GGUF file, no Python.
 
@@ -250,6 +252,12 @@ Most suites need the reference dumps and the larger models (`scripts/dump_*.py`,
 
 ---
 
+## Author
+
+depth-anywhere is made by **Yossi Elkrief** ([@MaTriXy](https://github.com/MaTriXy)): the iOS and Android builds and
+their Swift and Kotlin APIs, the app-facing C API, the Metal speed-ups and precompiled kernels, the ARM CPU work,
+and the Apple Silicon and phone benchmarks.
+
 ## Credits
 
 depth-anywhere grew out of [depth-anything.cpp](https://github.com/mudler/depth-anything.cpp) by Ettore Di Giacinto
@@ -258,7 +266,7 @@ builds on. Depth Anything 3 is by [ByteDance Seed](https://github.com/bytedance-
 Anything V2 by its [authors](https://github.com/DepthAnything/Depth-Anything-V2), and the tensor library is
 [ggml](https://github.com/ggml-org/ggml).
 
-If you use the model, please cite Depth Anything 3:
+To cite depth-anywhere, use GitHub's "Cite this repository" button ([`CITATION.cff`](CITATION.cff)). If you use the model, please also cite Depth Anything 3:
 
 ```bibtex
 @article{depthanything3,

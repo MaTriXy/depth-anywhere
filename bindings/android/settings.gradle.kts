@@ -1,3 +1,5 @@
+// SPDX-License-Identifier: MIT
+// Copyright (c) 2026 Yossi Elkrief
 // Standalone build of the Android bindings. Apps can also include :depthanything directly
 // (include + projectDir), as the Portable Shaders showcase does.
 pluginManagement {

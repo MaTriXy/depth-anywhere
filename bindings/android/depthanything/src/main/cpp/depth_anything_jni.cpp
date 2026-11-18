@@ -1,3 +1,5 @@
+// SPDX-License-Identifier: MIT
+// Copyright (c) 2026 Yossi Elkrief
 // JNI glue for dev.depthanything.DepthEstimator: the flat C API, with Bitmaps read in place.
 #include <android/bitmap.h>
 #include <jni.h>

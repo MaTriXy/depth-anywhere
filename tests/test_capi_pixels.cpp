@@ -1,3 +1,5 @@
+// SPDX-License-Identifier: MIT
+// Copyright (c) 2026 Yossi Elkrief
 // da_capi_depth_pixels / da_capi_set_resize_target: in-memory input for apps (camera frames,
 // decoded photos). Checks that RGB, RGBA and BGRA buffers (with row padding) all give the same
 // depth as the engine's native path on the same image, and that the processing resolution

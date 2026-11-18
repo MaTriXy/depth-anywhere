@@ -1,3 +1,5 @@
+# SPDX-License-Identifier: MIT
+# Copyright (c) 2026 Yossi Elkrief
 # Precompiled Metal kernels for Apple builds.
 #
 # With GGML_METAL_EMBED_LIBRARY ggml embeds its Metal *source* and compiles it when the app

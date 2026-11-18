@@ -1,3 +1,5 @@
+# SPDX-License-Identifier: MIT
+# Copyright (c) 2026 Yossi Elkrief
 """PyTorch reference timing on Apple Silicon (CPU or MPS), for bench_apple.py.
 
 Loads the net once, preprocesses once outside the timed loop, one warmup, then times N forward
