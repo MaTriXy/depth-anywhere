@@ -1,6 +1,6 @@
 # depth-anywhere
 
-By **Yossi Elkrief** ([@MaTriXy](https://github.com/MaTriXy)).
+By **Yossi Elkrief** ([@MaTriXy](https://github.com/MaTriXy)). Free for any use; [credit appreciated](#using-depth-anywhere-credit-it).
 
 **Depth Anything on every device.** iPhone, Android, Mac, Linux and Windows; CPU or GPU. One small C++ library,
 one GGUF file, no Python.
@@ -276,6 +276,26 @@ To cite depth-anywhere, use GitHub's "Cite this repository" button ([`CITATION.c
   year    = {2025}
 }
 ```
+
+## Using depth-anywhere? Credit it
+
+It's free for personal and commercial use. Two things when you ship it:
+
+- **Required by the licence, commercial or not:** include the copyright and licence notice from [`LICENSE`](LICENSE)
+  with your app or product, for example in its open-source licences screen. It names Yossi Elkrief and the
+  depth-anything.cpp authors.
+- **Please, if you can:** credit it where people will see it: an About or credits screen, your docs, a project
+  page or a post. For example:
+
+  > Depth by [depth-anywhere](https://github.com/MaTriXy/depth-anywhere) by Yossi Elkrief
+
+  or the badge [![depth-anywhere](https://img.shields.io/badge/depth_by-depth--anywhere-2a78d6)](https://github.com/MaTriXy/depth-anywhere):
+
+  ```markdown
+  [![depth-anywhere](https://img.shields.io/badge/depth_by-depth--anywhere-2a78d6)](https://github.com/MaTriXy/depth-anywhere)
+  ```
+
+Built something with it? Open an issue and tell me; I'd like to list projects that use it here.
 
 ## License
 
