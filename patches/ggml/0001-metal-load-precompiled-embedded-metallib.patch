@@ -1,0 +1,43 @@
+diff --git a/src/ggml-metal/ggml-metal-device.m b/src/ggml-metal/ggml-metal-device.m
+index a7cbc60e..300323a3 100644
+--- a/src/ggml-metal/ggml-metal-device.m
++++ b/src/ggml-metal/ggml-metal-device.m
+@@ -122,12 +122,34 @@ ggml_metal_library_t ggml_metal_library_init(ggml_metal_device_t dev) {
+         NSString * src = nil;
+ 
+ #if GGML_METAL_EMBED_LIBRARY
+-        GGML_LOG_INFO("%s: using embedded metal library\n", __func__);
++#if GGML_METAL_EMBED_METALLIB
++        // A metallib compiled at build time (with GGML_METAL_HAS_BF16, without the tensor API)
++        // loads in milliseconds; compiling the source takes seconds on a phone's first launch.
++        // Devices needing different macros fall through to the source below.
++        if (ggml_metal_device_get_props(dev)->has_bfloat && !ggml_metal_device_get_props(dev)->has_tensor) {
++            extern const char ggml_metallib_bin_start[];
++            extern const char ggml_metallib_bin_end[];
++            dispatch_data_t data = dispatch_data_create(ggml_metallib_bin_start, ggml_metallib_bin_end - ggml_metallib_bin_start,
++                                                        nil, DISPATCH_DATA_DESTRUCTOR_DEFAULT);
++            library = [device newLibraryWithData:data error:&error];
++            dispatch_release(data);
++            if (library) {
++                GGML_LOG_INFO("%s: using precompiled embedded metal library\n", __func__);
++            } else {
++                GGML_LOG_WARN("%s: precompiled library failed (%s), compiling the source\n", __func__,
++                              error ? [[error description] UTF8String] : "unknown");
++                error = nil;
++            }
++        }
++#endif
++        if (!library) {
++            GGML_LOG_INFO("%s: using embedded metal library\n", __func__);
+ 
+-        extern const char ggml_metallib_start[];
+-        extern const char ggml_metallib_end[];
++            extern const char ggml_metallib_start[];
++            extern const char ggml_metallib_end[];
+ 
+-        src = [[NSString alloc] initWithBytes:ggml_metallib_start length:(ggml_metallib_end-ggml_metallib_start) encoding:NSUTF8StringEncoding];
++            src = [[NSString alloc] initWithBytes:ggml_metallib_start length:(ggml_metallib_end-ggml_metallib_start) encoding:NSUTF8StringEncoding];
++        }
+ #else
+ 
+ #ifdef SWIFT_PACKAGE

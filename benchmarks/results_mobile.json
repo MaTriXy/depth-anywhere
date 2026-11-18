@@ -1,0 +1,17 @@
+{
+  "meta": {
+    "model": "DA3-Small q8_0",
+    "method": "Shader Showcase -depthBenchmark (iOS) and DepthEstimatorTest (Android): end to end from an image in memory (preprocess + forward + readback), median of 5 (iOS) or 3 (Android) after a warm-up",
+    "date": "2026-11-18"
+  },
+  "latency_ms": [
+    {"device": "iPhone 16 Pro Max", "chip": "A18 Pro", "backend": "Metal", "504": 184, "336": 93, "252": 59},
+    {"device": "iPhone 15", "chip": "A16", "backend": "Metal", "504": 276, "336": 135, "252": 80},
+    {"device": "Mi A3", "chip": "Snapdragon 665 (2019)", "backend": "CPU, 4 threads", "504": 3298, "336": 1233, "252": 706}
+  ],
+  "first_launch_load_ms": [
+    {"device": "M3 Max (Mac)", "before": 7770, "after": 75, "note": "first run of a fresh build: the original compiles ggml's Metal source"},
+    {"device": "iPhone 16 Pro Max", "before": 7166, "after": 135, "note": "first launch after install"},
+    {"device": "iPhone 15", "before": 9063, "after": 114, "note": "first launch after install"}
+  ]
+}

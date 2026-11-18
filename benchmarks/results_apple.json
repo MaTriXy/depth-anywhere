@@ -1,0 +1,156 @@
+{
+  "meta": {
+    "chip": "Apple M3 Max",
+    "threads": 12,
+    "repeat": 20,
+    "image": "street.jpg",
+    "macos": "27.2.1",
+    "date": "2026-11-18"
+  },
+  "rows": [
+    {
+      "load_ms": 15.6,
+      "e2e_ms": 171.7,
+      "forward_ms": 160.8,
+      "peak_mb": 247.390625,
+      "engine": "original",
+      "device": "cpu",
+      "model": "da3-small-f32"
+    },
+    {
+      "load_ms": 14.0,
+      "e2e_ms": 106.6,
+      "forward_ms": 94.6,
+      "peak_mb": 247.0625,
+      "engine": "fork",
+      "device": "cpu",
+      "model": "da3-small-f32"
+    },
+    {
+      "load_ms": 7770.0,
+      "e2e_ms": 274.6,
+      "forward_ms": 264.0,
+      "peak_mb": 354.859375,
+      "engine": "original",
+      "device": "metal",
+      "model": "da3-small-f32"
+    },
+    {
+      "load_ms": 74.6,
+      "e2e_ms": 42.3,
+      "forward_ms": 31.8,
+      "peak_mb": 325.140625,
+      "engine": "fork",
+      "device": "metal",
+      "model": "da3-small-f32"
+    },
+    {
+      "load_ms": 13.0,
+      "e2e_ms": 123.6,
+      "forward_ms": 113.0,
+      "peak_mb": 183.34375,
+      "engine": "original",
+      "device": "cpu",
+      "model": "da3-small-q8_0"
+    },
+    {
+      "load_ms": 9.7,
+      "e2e_ms": 82.0,
+      "forward_ms": 71.4,
+      "peak_mb": 183.1875,
+      "engine": "fork",
+      "device": "cpu",
+      "model": "da3-small-q8_0"
+    },
+    {
+      "load_ms": 70.9,
+      "e2e_ms": 274.7,
+      "forward_ms": 263.9,
+      "peak_mb": 207.96875,
+      "engine": "original",
+      "device": "metal",
+      "model": "da3-small-q8_0"
+    },
+    {
+      "load_ms": 62.4,
+      "e2e_ms": 42.2,
+      "forward_ms": 31.1,
+      "peak_mb": 210.5,
+      "engine": "fork",
+      "device": "metal",
+      "model": "da3-small-q8_0"
+    },
+    {
+      "load_ms": 9.9,
+      "e2e_ms": 356.4,
+      "forward_ms": null,
+      "peak_mb": 268.984375,
+      "engine": "original",
+      "device": "cpu",
+      "model": "da2-small-q8_0"
+    },
+    {
+      "load_ms": 5.4,
+      "e2e_ms": 242.6,
+      "forward_ms": null,
+      "peak_mb": 261.203125,
+      "engine": "fork",
+      "device": "cpu",
+      "model": "da2-small-q8_0"
+    },
+    {
+      "load_ms": 62.8,
+      "e2e_ms": 671.3,
+      "forward_ms": null,
+      "peak_mb": 209.9375,
+      "engine": "original",
+      "device": "metal",
+      "model": "da2-small-q8_0"
+    },
+    {
+      "load_ms": 67.7,
+      "e2e_ms": 83.3,
+      "forward_ms": null,
+      "peak_mb": 203.03125,
+      "engine": "fork",
+      "device": "metal",
+      "model": "da2-small-q8_0"
+    },
+    {
+      "load_ms": 409.1,
+      "forward_ms": 128.1,
+      "e2e_ms": null,
+      "peak_mb": 1003.765625,
+      "engine": "pytorch",
+      "device": "cpu",
+      "model": "da3-small-f32"
+    },
+    {
+      "load_ms": 536.0,
+      "forward_ms": 31.7,
+      "e2e_ms": null,
+      "peak_mb": 579.171875,
+      "engine": "pytorch",
+      "device": "mps",
+      "model": "da3-small-f32"
+    },
+    {
+      "load_ms": 1522.8,
+      "forward_ms": 152.4,
+      "e2e_ms": null,
+      "peak_mb": 1574.15625,
+      "engine": "pytorch",
+      "device": "cpu",
+      "model": "da2-small-f32"
+    },
+    {
+      "load_ms": 1609.3,
+      "forward_ms": 33.9,
+      "e2e_ms": null,
+      "peak_mb": 557.796875,
+      "engine": "pytorch",
+      "device": "mps",
+      "model": "da2-small-f32"
+    }
+  ]
+}
